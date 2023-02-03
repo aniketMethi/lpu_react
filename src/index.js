@@ -1,17 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import Func from './Func';
+import NameComp from './NameComp';
+import CounterControler from './CounterControler';
+import DisplayCounter from './DisplayCounter';
+import ParentComp from './ParentComp';
+import FuncState from './FuncState';
+import ControlledComp from './ControlledComp';
+const root = ReactDOM.createRoot(document.getElementsByClassName('root')[0]);
+const name = "Aryan";
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <NameComp firstname="Aryan" lastname ="yadav">
+        <h1>How are you ??</h1>
+        <h1>I am Good!! Thanks for Asking....</h1>
+    </NameComp> */}
+ {/* <CounterControler></CounterControler> */}
+ {/* <DisplayCounter></DisplayCounter> */}
+ {/* <ParentComp></ParentComp> */}
+ {/* <FuncState></FuncState> */}
+ <ControlledComp></ControlledComp>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+

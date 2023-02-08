@@ -19,7 +19,8 @@ root.render(
  {/* <DisplayCounter></DisplayCounter> */}
  {/* <ParentComp></ParentComp> */}
  {/* <FuncState></FuncState> */}
- <ControlledComp></ControlledComp>
+ {/* <ControlledComp></ControlledComp> */}
+ <h1>Hello world</h1>
   </React.StrictMode>
 );
 
